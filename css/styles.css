@@ -1,0 +1,229 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    color: #fff;
+    background-color: #282828;
+    font-family: Lato,Arial;
+    font-size: 14px;
+}
+.wrapper{
+    margin: auto;
+    display: block;
+}
+.container{
+    margin: auto;
+    width: 1000px;
+    display: block;
+}
+header{
+   padding-bottom: 40px;
+    background: url(../img/bghead.jpg) no-repeat;
+    background-size: cover;
+}
+.notebook{
+    margin-top: 50px;
+    display: inline-block;
+
+    font-size: 48px;
+}
+.main-nav{
+    margin-top: 50px;
+    float: right;
+    display: block;
+}
+.main-nav ul > li{
+    float: left;
+    padding: 18px;
+    font-size: 16px;
+}
+.logo_citate{
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+.best-ideas{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+.best-ideas-par{
+    text-align: center;
+    font-size: 21px;
+}
+.order-now{
+
+    font-size: 21px;
+    background: #a4b9be;
+    padding: 25px 70px;
+    width: 113px;
+    display: block;
+    margin:60px auto;
+
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+}
+.first{
+    background: #fff;
+    display: block;
+    padding: 40px;
+}
+.next-project{
+    color: #535a5e;
+    font-size: 38px;
+    text-align: center;
+   padding-top: 40px;
+    padding-bottom: 25px;
+}
+.first p{
+    text-align: center;
+    color: #9fa4a7;
+    font-size: 16px;
+}
+.pencil{
+    color: #9fa4a7;
+    display: block;
+    margin: 60px auto;
+     font-size: 70px;
+
+}
+.second{
+    background: #a4b9be;
+}
+.second h2{
+    font-size: 38px;
+    color: #fff;
+    text-align:center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.second p{
+    font-size: 21px;
+    width: 65%;
+    text-align:center;
+    margin: auto;
+}
+.browser-img{
+    padding-top:  55px;
+    display: block;
+    margin: auto;
+}
+.third{
+    background: #fff;
+}
+.third .flexible{
+    padding-top: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: #535a5e;
+}
+.third p{
+    text-align: center;
+    font-size: 21px;
+    margin: auto;
+    width: 65%;
+    color: #98a0a5;
+}
+.coll{
+    color: black;
+    width: 27%;
+    float: left;
+    margin: 60px 30px;
+}
+.coll h2{
+      text-align: center;
+    font-size: 30px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
+    font-weight: 300;
+    height: 65px;
+    padding-top: 15px;
+}
+.Grey{
+    background: #98a0a5;
+}
+.Green{
+    background: #58ad52;
+}
+.Blue{
+    background: #53a1ad;
+}
+.third ul>li{
+    background: #e9eef2;
+    text-align: center;
+    padding: 30px;
+    font-size: 21px;
+}
+.third ul>li:first-child{
+    font-weight: bold;
+}
+.third .button{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin:10px auto;
+    padding: 25px;
+    border-radius: 4px;
+}
+.third .no-questions{
+    font-size: 15px;
+    width: 35%;
+    padding-bottom: 80px;
+}
+.third span{
+    display: block;
+    font-size: 18px;
+}
+footer{
+    background: #2d3035;
+}
+footer h2{
+    font-size: 38px;
+    color: #fff;
+    font-weight: bold;
+    text-align:center;
+    padding-top: 80px;
+}
+footer p{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align:center;
+    font-size: 21px;
+    color: #98a0a5;
+    width: 37%;
+    margin: auto;
+}
+
+.name{
+
+    background: #2d3035;
+    border: 3px solid white;
+    padding: 20px;
+    display: block;
+    margin:20px auto;
+    width: 25%;
+}
